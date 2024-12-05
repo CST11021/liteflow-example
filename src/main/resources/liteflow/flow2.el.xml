@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow>
+    <chain name="promotionChain">
+        <!-- fullCutCmp: 满减计算组件 -->
+        <!-- fullDiscountCmp: 满折计算组件 -->
+        <!-- rushBuyCmp: 抢购计算组件 -->
+        THEN(fullCutCmp, fullDiscountCmp, rushBuyCmp);
+    </chain>
+</flow>
